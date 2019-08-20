@@ -71,16 +71,30 @@ function scene2() {
 
   // Action!
 
-  // Stage direction 1
+  // Stage directions
 
-  frame(() => {
-
+  frame(() => { //Position 1; Sword being held by Ned.
+    sword.style.top = '77%';
+    sword.style.left = '31%';
   });
 
-  // Stage direction 2
-
-  frame(() => {
-
+  frame(() => { //Position 2; Sword thrown at Joffrey.
+    sword.style.top = '74%';
+    sword.style.left = '36%';
+  });
+  
+  frame(() => { //Position 3; Sword thrown at Joffrey.
+    sword.style.top = '71%';
+    sword.style.left = '41%';
   });
 
+  frame(() => { //Position 4; Sword thrown at Joffrey.
+    sword.style.top = '68%';
+    sword.style.left = '47%';
+  });
+
+  frame(() => { //Position 5; Sword hitting Joffrey.
+    sword.style.top = '64%';
+    sword.style.left = '53%';
+  });
 }
