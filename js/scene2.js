@@ -19,18 +19,42 @@ function scene2() {
   nedContainer.style.height = '37%';
   nedContainer.style.position = 'absolute';
 
+  // Ned's head
   const ned = document.querySelector('#ned');
   nedContainer.append(ned);
   ned.style.top = 0;
   ned.style.width = '70%';
   ned.style.position = 'absolute';
 
+  // Ned's leather armour
   const leather = document.querySelector('#leather-armour');
   nedContainer.append(leather);
   leather.style.bottom = 0;
   leather.style.position = 'absolute';
 
-  // Character 2
+  // Character 2 - Joffrey Lannister
+  const joffContainer = document.createElement('div');
+  joffContainer.id = 'joff-container';
+  stage.append(joffContainer);
+  joffContainer.style.top = '55%';
+  joffContainer.style.left = '55%';
+  joffContainer.style.width = '8%';
+  joffContainer.style.height = '31%';
+  joffContainer.style.position = 'absolute';
+
+  // Joffrey's head
+  const joff = document.querySelector('#joffrey');
+  joffContainer.append(joff);
+  // joff.style.top = 0;
+  joff.style.left = '33%';
+  joff.style.width = '75%';
+  joff.style.position = 'absolute';
+
+  // Joffrey's's king clothes
+  const kingWardrobe = document.querySelector('#king');
+  joffContainer.append(kingWardrobe);
+  kingWardrobe.style.bottom = 0;
+  kingWardrobe.style.position = 'absolute';
 
   // Setup Props
 
