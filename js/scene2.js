@@ -67,9 +67,7 @@ function scene2() {
   sword.style.position = 'absolute';
   sword.style.transform = 'rotateY(150deg)';
 
-  // Prop 2
-
-  // Action!
+    // Action!
 
   // Stage directions
 
