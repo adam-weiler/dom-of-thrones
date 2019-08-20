@@ -73,28 +73,58 @@ function scene2() {
 
   // Stage directions
 
-  frame(() => { //Position 1; Sword being held by Ned.
+  frame(() => { //Frame 1; Sword being held by Ned.
     sword.style.top = '77%';
     sword.style.left = '31%';
   });
 
-  frame(() => { //Position 2; Sword thrown at Joffrey.
+  frame(() => { //Frame 2; Sword thrown at Joffrey.
     sword.style.top = '74%';
     sword.style.left = '36%';
   });
   
-  frame(() => { //Position 3; Sword thrown at Joffrey.
+  frame(() => { //Frame 3; Sword thrown at Joffrey.
     sword.style.top = '71%';
     sword.style.left = '41%';
   });
 
-  frame(() => { //Position 4; Sword thrown at Joffrey.
+  frame(() => { //Frame 4; Sword thrown at Joffrey.
     sword.style.top = '68%';
     sword.style.left = '47%';
   });
 
-  frame(() => { //Position 5; Sword hitting Joffrey.
+  frame(() => { //Frame 5; Sword hitting Joffrey.
     sword.style.top = '64%';
     sword.style.left = '53%';
+  });
+
+  frame(() => { //Frame 6; Joffrey's head falls off.
+    joff.style.top = 0;
+    joff.style.left = '33%';
+    joff.style.transform = 'rotateZ(220deg)';
+  });
+
+  frame(() => { //Frame 7; Joffrey's head falling.
+    joff.style.top = '17%';
+    joff.style.left = '90%';
+    joff.style.transform = 'rotateZ(220deg)';
+  });
+
+  frame(() => { //Frame 8; Joffrey's head falling.
+    joff.style.top = '35%';
+    joff.style.left = '160%';
+    joff.style.transform = 'rotateZ(260deg)';
+  });
+
+  frame(() => { //Frame 9; Joffrey's head falling.
+    joff.style.top = '55%';
+    joff.style.left = '230%';
+    joff.style.transform = 'rotateZ(180deg)';
+  });
+
+  frame(() => { //Frame 10; Joffrey's head lands in the river.
+    joff.style.top = '75%';
+    joff.style.left = '300%';
+    joff.style.transform = 'rotateZ(100deg)';
   });
 }
