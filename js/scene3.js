@@ -54,7 +54,28 @@ function scene3() {
   bulkyMan.style.bottom = 0;
   bulkyMan.style.position = 'absolute';
 
-  
+  // Character 3 - Viserys Targaryen
+  const viserysContainer = document.createElement('div');
+  stage.append(viserysContainer);
+  viserysContainer.style.top = '24%';
+  viserysContainer.style.left = '15%';
+  viserysContainer.style.width = '3%';
+  viserysContainer.style.height = '11.5%';
+  viserysContainer.style.position = 'absolute';
+
+  // Viserys's head
+  const viserys = document.querySelector('#viserys');
+  viserysContainer.append(viserys);
+  viserys.style.top = 0;
+  viserys.style.left = '15%';
+  viserys.style.width = '70%';
+  viserys.style.position = 'absolute';
+
+  // Viserys's blue dress
+  const brownRobes = document.querySelector('#brown-robes');
+  viserysContainer.append(brownRobes);
+  brownRobes.style.bottom = 0;
+  brownRobes.style.position = 'absolute';
 
   // Setup Props
 
