@@ -10,7 +10,25 @@ function scene2() {
 
   // Setup Cast
 
-  // Character 1
+  // Character 1 - Ned Stark
+  const nedContainer = document.createElement('div');
+  stage.append(nedContainer);
+  nedContainer.style.top = '55%';
+  nedContainer.style.left = '25%';
+  nedContainer.style.width = '10%';
+  nedContainer.style.height = '37%';
+  nedContainer.style.position = 'absolute';
+
+  const ned = document.querySelector('#ned');
+  nedContainer.append(ned);
+  ned.style.top = 0;
+  ned.style.width = '70%';
+  ned.style.position = 'absolute';
+
+  const leather = document.querySelector('#leather-armour');
+  nedContainer.append(leather);
+  leather.style.bottom = 0;
+  leather.style.position = 'absolute';
 
   // Character 2
 
