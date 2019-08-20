@@ -54,6 +54,8 @@ function scene3() {
   bulkyMan.style.bottom = 0;
   bulkyMan.style.position = 'absolute';
 
+  
+
   // Setup Props
 
   // Prop 1 - Dragon's egg
@@ -68,17 +70,45 @@ function scene3() {
   // Prop 2
 
   // Action!
+  for (let x = 0; x < 3; x++) {
+    frame(() => { //Frame 1; Egg being held by Dany.
+      egg.style.top = '70%';
+      egg.style.left = '30%';
+    });
 
-  // Stage direction 1
+    frame(() => { //Frame 2; Egg thrown at Drogo.
+      egg.style.top = '50%';
+      egg.style.left = '40%';
+    });
+    
+    frame(() => { //Frame 3; Egg thrown at Drogo.
+      egg.style.top = '40%';
+      egg.style.left = '45%';
+    });
 
-  frame(() => {
+    frame(() => { //Frame 4; Egg thrown at Drogo.
+      egg.style.top = '45%';
+      egg.style.left = '55%';
+    });
 
-  })
+    frame(() => { //Frame 5; Drogo catches egg.
+      egg.style.top = '65%';
+      egg.style.left = '60%';
+    });
 
-  // Stage direction 2
+    frame(() => { //Frame 6; Drogo throws egg.
+      egg.style.top = '63%';
+      egg.style.left = '50%';
+    });
 
-  frame(() => {
+    frame(() => { //Frame 7; Egg thrown at Dany.
+      egg.style.top = '63%';
+      egg.style.left = '40%';
+    });
 
-  })
-
+    frame(() => { //Frame 8; Dany catches egg.
+      egg.style.top = '70%';
+      egg.style.left = '30%';
+    });
+  }
 }
