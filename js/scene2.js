@@ -58,7 +58,14 @@ function scene2() {
 
   // Setup Props
 
-  // Prop 1
+  // Prop 1 - Sword
+  const sword = document.querySelector('#sword');
+  stage.append(sword);
+  sword.style.top = '77%';
+  sword.style.left = '31%';
+  sword.style.height = '5%';
+  sword.style.position = 'absolute';
+  sword.style.transform = 'rotateY(150deg)';
 
   // Prop 2
 
